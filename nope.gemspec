@@ -1,14 +1,14 @@
 $:.push File.expand_path('../lib', __FILE__)
 
-require 'yesno/version'
+require 'nope/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'yesno'
-  s.version  = Yesno.version
+  s.name     = 'nope'
+  s.version  = Nope.version
   s.authors  = ['Genadi Samokovarov']
   s.email    = ['gsamokovarov@gmail.com']
-  s.homepage = 'https://github.com/gsamokovarov/yesno'
-  s.summary  = 'Yesno adds yes, no, on and off into Object.'
+  s.homepage = 'https://github.com/gsamokovarov/nope'
+  s.summary  = 'Nope adds yes, no, on and off into Object.'
   s.license  = 'MIT'
 
   s.files      = Dir['MIT-LICENSE', 'README', 'Rakefile', 'lib/**/*']

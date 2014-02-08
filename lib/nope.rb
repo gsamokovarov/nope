@@ -1,10 +1,10 @@
-# Yesno adds +yes+, +no+, +on+ and +off+ into Object.
+# Nope adds +yes+, +no+, +on+ and +off+ into Object.
 #
 # You can use them in configuration files or wherever they make more sense to
 # you than a plain +true+ or +false+.
 #
 # Thats it.
-module Yesno
+module Nope
   # Alias for +true+.
   def yes
     true
@@ -20,4 +20,4 @@ module Yesno
   alias :off :no
 end
 
-Object.send(:include, Yesno)
+Object.send(:include, Nope)

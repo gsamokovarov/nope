@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class YesnoTest < MiniTest::Test
+class NopeTest < MiniTest::Test
   def test_truth_aliases_yes_and_on
     assert_equal true, yes
     assert_equal true, on
