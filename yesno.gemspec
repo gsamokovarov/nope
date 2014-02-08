@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.summary  = 'Yesno adds yes, no, on and off into Object.'
   s.license  = 'MIT'
 
-  s.files      = Dir['MIT-LICENSE', 'README', 'lib/**/*']
+  s.files      = Dir['MIT-LICENSE', 'README', 'Rakefile', 'lib/**/*']
   s.test_files = Dir["test/**/*"]
 end
