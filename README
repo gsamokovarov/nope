@@ -1,6 +1,9 @@
 Yesno adds yes, no, on and off into Object.
 
-You can use them in configuration files, or wherever they make more
+You can use them in configuration files or wherever they make more
 sense to you than a plain true or false.
+
+Do the usual, gem install yepno to install it and require 'yepno' into
+your projects to get the methods.
 
 Thats it.
