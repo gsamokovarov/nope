@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.authors  = ['Genadi Samokovarov']
   s.email    = ['gsamokovarov@gmail.com']
   s.homepage = 'https://github.com/gsamokovarov/yesno'
-  s.summary  = 'Yesno adds yes, no, on and off to Object.'
+  s.summary  = 'Yesno adds yes, no, on and off into Object.'
   s.license  = 'MIT'
 
   s.files      = Dir['MIT-LICENSE', 'README.rdoc', 'lib/**/*']
